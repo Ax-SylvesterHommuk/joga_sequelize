@@ -5,7 +5,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}));
 
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize('mysql://root:qwerty@localhost:3306/joga_sequelize')
+const sequelize = new Sequelize('mysql://root:qwerty@localhost:3307/joga_sequelize')
 
 sequelize
     .authenticate()
